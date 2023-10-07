@@ -1,0 +1,57 @@
+/* styles.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Croissant One', cursive;
+}
+
+
+.navbar {
+  background:linear-gradient(to bottom right,#278c19,#0be3df,#2b0be3); 
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 500px;
+}
+
+.nav-links li {
+  margin-right: 15px; 
+  color: white; 
+}
+
+.nav-links li a {
+  text-decoration: none; 
+  color:black; 
+}
+
+
+.menu-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold; 
+}
